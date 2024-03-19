@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicApp", "BasicApp\BasicApp.csproj", "{64430A23-E2E0-471D-B9F9-31E4E4C834E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests.csproj", "{7F3DC659-D77B-4203-A75C-58B22A7DA87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.csproj", "{51908A5D-1105-4804-BB4A-442B787E5003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme.Tests", "Volo.BasicTheme.Tests", "{A5E10116-E3EE-4859-902A-4E752EF8BAD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB326380-1B37-4036-B96F-F761629DE157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme", "Volo.BasicTheme", "{E98D19AC-2B0D-4AE5-B3B5-98761EB6054F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{B44C47B5-8FF7-4F26-A981-AB170E9CECBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64430A23-E2E0-471D-B9F9-31E4E4C834E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64430A23-E2E0-471D-B9F9-31E4E4C834E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64430A23-E2E0-471D-B9F9-31E4E4C834E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64430A23-E2E0-471D-B9F9-31E4E4C834E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3DC659-D77B-4203-A75C-58B22A7DA87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3DC659-D77B-4203-A75C-58B22A7DA87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3DC659-D77B-4203-A75C-58B22A7DA87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3DC659-D77B-4203-A75C-58B22A7DA87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51908A5D-1105-4804-BB4A-442B787E5003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51908A5D-1105-4804-BB4A-442B787E5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51908A5D-1105-4804-BB4A-442B787E5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51908A5D-1105-4804-BB4A-442B787E5003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63E2660C-C1D9-4768-90FD-289F36581842}
+	EndGlobalSection
+EndGlobal
